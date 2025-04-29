@@ -338,7 +338,15 @@ def lam_job_facebook_like(driver, index=0):
                 delay_anti(1)
                 biendem += 1
                 tongxu += xu
-                print(f" [Luồng {index}] {CYAN}| {biendem} | ANIME IT | FACEBOOK  | {RED} Ẩn ID {RESET} |{GREEN} Hoàn Thành {RESET}| {YELLOW}+{xu}{RESET} | {MAGENTA}Tổng xu: {tongxu}{RESET} | {BLUE}Time: {datetime.now().strftime('%H:%M:%S')}{RESET} | ")
+                current_time = datetime.now().strftime('%H:%M:%S')
+
+
+
+                print(f"{CYAN}┏━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━┳━━━━━━━━━━━━┳━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━━━━━┓{RESET}")
+                print(f"{GREEN}┃ Luồng  ┃ STT      ┃ ADMIN   ┃   JOB     ┃ ID   ┃ Trạng Thái ┃  Xu ┃  Tổng Xu ┃      TIME     ┃{RESET}")
+                print(f"{YELLOW}┡━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━╇━━━━━━━━━━━╇━━━━━━╇━━━━━━━━━━━━╇━━━━━╇━━━━━━━━━━╇━━━━━━━━━━━━━━━┩{RESET}")
+                print(f"{RED}│{MAGENTA}{index}{RED} │ {CYAN}{biendem}{RED}│ {YELLOW}ANIME IT{RED}│ {GREEN}FACEBOOK{RED}│ {BLUE}Ẩn ID{RED}│ {GREEN}Success{RED}│ {YELLOW}{xu}{RED}│ {CYAN}{tongxu}{RED}│ {MAGENTA}{current_time}{RED}│{RESET}")
+                print(f"{CYAN}└────────┴──────────┴─────────┴───────────┴──────┴────────────┴─────┴──────────┴───────────────┘{RESET}")
                 
                 #print(f"{CYAN}{NGHIENG} [| ANIME IT |][ FACEBOOK ] {RESET} | {RED} Ẩn ID {RESET} |{GREEN} Hoàn Thành {RESET}| {BLUE}Time: {datetime.now().strftime('%H:%M:%S')}{RESET} | ")
         except:
