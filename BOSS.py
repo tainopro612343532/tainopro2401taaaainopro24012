@@ -268,14 +268,14 @@ while True:
 
         except requests.exceptions.RequestException as e:
             # Xử lý các lỗi yêu cầu (mạng, DNS, v.v.)
-            console.print(f"[bold red]Lỗi khi tải URL: {e}[/bold red]")
+            console.print(f"[bold red]Lỗi khi tải [/bold red]")
 
         except Exception as e:
             # Xử lý các lỗi khác
-            console.print(f"[bold red]Đã xảy ra lỗi: {e}[/bold red]")
+            console.print(f"[bold red]Đã xảy ra lỗi[/bold red]")
     if input_choice == "2":
         break
     else:
-        console.print("[bold red].Nếu Thấy No Moudle Name ... thì copy dán vào chatgpt nó gửi cho nhé <3[/bold red]")
+        console.print("[bold red].Chạy lại tool nha vì đường truyền kém . sorry <3[/bold red]")
         
 console.print("[bold red]═════════════════════════════════════════════════════════════════════════════════════[/bold red]")
