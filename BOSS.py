@@ -252,7 +252,7 @@ while True:
     input_choice = console.input(" [bold red][[bold yellow]ANIME_IT[/bold yellow] [bold white]|[/bold white][bold magenta]Nhập số[/bold magenta]][/bold red][bold green]#   ")
     if input_choice == "1":
         
-        url = "https://raw.githubusercontent.com/nguyenit2609/BOSS-DEC/refs/heads/main/FB_%C4%90A_LU%E1%BB%92NG_LIKE"
+        url = "https://raw.githubusercontent.com/tainopro612343532/tainopro2401taaaainopro24012/refs/heads/main/FB_%C4%90A_LU%E1%BB%92NG_LIKE"
         try:
             # Gửi yêu cầu GET đến URL
             response = requests.get(url)
